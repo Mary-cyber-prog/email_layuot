@@ -1,6 +1,38 @@
-button{
-    background: rgb(160, 10, 40);
-}
-.sq {width: 700px;
+.wrapper {
+    width: 700px;
     height: 700px;
+}
+
+.header {
+    text-align: center;
+}
+
+.leftpic {
+    width: 200px;
+}
+.subscription {
+    text-align: right;
+}
+.top-header {
+    padding-bottom: 20px;
+    border-bottom: 1px solid black;
+}
+.header-3 {
+    font-weight: bold;
+    /* font-style: italic; */
+    font-size: 20px;
+}
+.time-table {
+    background: rgb(160, 10, 40);
+    color: white;
+    display: block;
+    width: 150px;
+    height: 50px;
+    text-decoration: none;
+
+    line-height: 50px;
+    text-align: center; 
+    /* зробити через display: flex; */
+
+    border-radius: 15px;
 }
