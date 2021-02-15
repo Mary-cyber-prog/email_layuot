@@ -1,9 +1,13 @@
 .wrapper {
-    width: 700px;
+        width: 700px;
     height: 700px;
+    
+
 }
 
 .header {
+
+    
     text-align: center;
 }
 
@@ -11,9 +15,11 @@
     width: 200px;
 }
 .subscription {
+margin-left: 120px;
     text-align: right;
 }
 .top-header {
+    display: flex;
     padding-bottom: 20px;
     border-bottom: 1px solid black;
 }
@@ -35,4 +41,8 @@
     /* зробити через display: flex; */
 
     border-radius: 15px;
+    
+}
+.free_train  {
+    display: flex;
 }
