@@ -1,0 +1,29 @@
+.sq1 {
+    width: 150px;
+    height: 150px;
+    background: red;
+    border: solid black 1px;
+}
+.sq2 {
+    width: 150px;
+    height: 150px;
+    background: rgb(3, 85, 17);
+    border: solid black 1px;
+    
+}
+.p2 {
+    position: absolute;
+    top: 75px;
+    left: 75px;
+}
+.sq3 {
+    width: 150px;
+    height: 150px;
+    background: rgb(31, 8, 160);
+    border: solid black 1px;
+}
+.p3 {
+    position:absolute;
+    left: 150px;
+    top: 150px;
+}
