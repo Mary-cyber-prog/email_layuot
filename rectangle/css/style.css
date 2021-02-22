@@ -1,28 +1,28 @@
-.sq1 {
+.square-red {
     width: 150px;
     height: 150px;
     background: red;
     border: solid black 1px;
 }
-.sq2 {
+.square-green {
     width: 150px;
     height: 150px;
     background: rgb(3, 85, 17);
     border: solid black 1px;
     
 }
-.p2 {
+.position-green {
     position: absolute;
     top: 75px;
     left: 75px;
 }
-.sq3 {
+.square-blue {
     width: 150px;
     height: 150px;
     background: rgb(31, 8, 160);
     border: solid black 1px;
 }
-.p3 {
+.position-blue {
     position:absolute;
     left: 150px;
     top: 150px;
