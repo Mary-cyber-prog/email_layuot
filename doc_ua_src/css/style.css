@@ -32,7 +32,7 @@
 
 .paragraph_distance {
     margin-bottom: 20px;
-    margin-left: 30px;
+    margin-left: 20px;
 }
 
 span {
@@ -46,41 +46,52 @@ span {
 }
 
 /* first raw of objects */
-.width_object_1raw {
-    width: 250px;
-    margin: 0 20px 20px 20px;
-}
 
 .img_first_raw {
     height: 200px;
+    margin-bottom: 20px; 
+}
+.column {
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    margin: 20px;
 }
 /* button for both raws */
 .button_background {
     background: red;
+    border-radius: 7px;
     height: 40px;
-    border-radius: 5px;
     color: seashell;
     text-align: center;
-    line-height: 40px;
+    margin-top: 20px;
+    border: honeydew;
+    transition: 2s;
 }
 .button_background:hover {
     background: lawngreen;
     cursor: pointer;
 }
 /* second raw of objects */
-.width_object_2raw {
+
+.img_second_raw {
+    height: 200px; 
+}
+.column2 {
+    display: flex;
+    flex-direction: column;
     width: 150px;
-    margin: 0 20px 20px 20px;
+    margin: 20px;
 }
-.img2 {
-    height: 200px;  
-}
+/* bottom text */
 .bottom_sign {
-    margin-left: 30px;
+    margin-left: 20px;
     margin-top: 10px;
 }
+/* bottom button */
 .button_like_doc {
     margin: 50px 15px;
+    width: 600px;
 }
 .cancel_subscription {
     margin-top: 30px;
@@ -88,3 +99,4 @@ span {
     font-weight: bold;
     color: honeydew;
 }
+
