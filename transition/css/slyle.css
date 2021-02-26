@@ -1,0 +1,83 @@
+
+/* move side */
+.square1 {
+    width: 100px;
+    height: 100px;
+    border: solid red;
+    background: red;
+    margin: 20px;
+}
+.square1:hover {
+    transform: translate(100px,0);
+    transition: 2s;
+    cursor: pointer;
+    
+}
+/* move around */
+.square2 {
+    width: 100px;
+    height: 100px;
+    border: solid red;
+    margin: 20px;
+    background: red;
+}
+.square2:hover {
+  transform: rotate(60deg);
+  transition: 2s;
+    cursor: pointer;
+}
+
+/* change into circle */
+.square3 {
+    width: 100px;
+    height: 100px;
+    border: solid red;
+    margin: 20px;
+    background: red;
+}
+.square3:hover {
+    background-color: green;
+    border-radius: 50px;
+    border: rgb(95, 136, 95);
+    transition: 2s;
+    cursor: pointer;
+}
+/* change size */
+.square4 {
+    width: 100px;
+    height: 100px;
+    border: solid red;
+    margin: 20px;
+    background: red;
+}
+.square4:hover {
+    transform: scale(1.2);
+    transition: 2s;
+    cursor: pointer;
+}
+/* shadow */
+.square5 {
+    width: 100px;
+    height: 100px;
+    border: solid red;
+    margin: 20px;
+    background: red;
+}
+.square5:hover {
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.912);
+;
+}
+.square6 {
+    width: 100px;
+    height: 100px;
+    border: solid red;
+    margin: 20px; background: red;
+}
+.square6:hover {
+    border-radius: 50px;
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.912);
+    transform: translate(100px) rotate(360deg);
+    cursor: pointer;
+    transition: 2s;
+}
+
