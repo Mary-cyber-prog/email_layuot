@@ -1,0 +1,102 @@
+* {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Blue background */
+.background {
+width: 700px;
+height: 1600px;
+background-color: rgba(46, 77, 145, 0.589);
+margin: auto;
+padding-top: 10px;
+}
+
+/* White background */
+.wrapper {
+width: 690px;
+height: 1550px;
+background-color: white;
+margin: 15px 5px 10px 5px;
+}
+
+/* Top image and a text */
+.margin-top {
+    margin-top: 20px;
+}
+.hearder_img {
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.parents_center {
+    text-align: center; 
+}
+.paragraph {
+    margin-left: 60px ;
+    margin-right: 60px;
+    }
+
+.list_item {
+    margin-left: 70px;
+}
+/* image sign button in a column */
+.column_image {
+    width: 250px; 
+}
+.text_bolt {
+    font-weight: bold;
+}
+.button {
+    background-color: rgb(173, 54, 54);
+    height: 40px;
+    color: cornsilk;
+    border-radius: 7px;
+    border: solid white;
+    outline:none;
+    
+}
+.button:hover {
+    background-color: orange;
+    transition: 2s;
+}
+.object_column {
+    display: flex;
+    flex-direction: column;
+}
+ /* objects in a raw */
+ .raw {
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: space-between;
+     margin: 60px;
+ }
+/* bottom button */
+.bottom_button-size {
+    width: 575px;
+}
+ /* bottom blue background */
+ .bottom_background-blue {
+     background-color: rgba(46, 77, 145, 0.589) ;
+     height: 200px;
+ }
+ .bottom_objects-centre {
+     text-align: center;
+ }
+
+ /* size picture facebook -vk */
+.picture_size_vk {
+    width: 50px;
+    
+}
+
+/* bottom text */
+.cancel_subscription {
+    margin-top: 30px;
+    text-align: center;
+    font-weight: bold;
+    color: honeydew;
+}
+
+
