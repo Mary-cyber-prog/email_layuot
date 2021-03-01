@@ -6,44 +6,42 @@
 }
 /* Blue background */
 .background {
-width: 700px;
-height: 1600px;
-background-color: rgba(46, 77, 145, 0.589);
-margin: auto;
-padding-top: 10px;
+    width: 100%;
+    max-width: 700px;
+    background-color: rgba(46, 77, 145, 0.589);
+    margin: auto;
+    padding: 25px 5px 10px 5px;
 }
 
 /* White background */
 .wrapper {
-width: 690px;
-height: 1550px;
-background-color: white;
-margin: 15px 5px 10px 5px;
+    padding: 0 60px;
+    background-color: white;
 }
 
 /* Top image and a text */
 .margin-top {
     margin-top: 20px;
 }
-.hearder_img {
-    width: 600px;
-    margin-left: auto;
-    margin-right: auto;
+.header {
+    width: 100%;
+    text-align: center;
+}
+.header_img {
+    width: 100%;
+    max-width: 600px;
 }
 .parents_center {
     text-align: center; 
 }
-.paragraph {
-    margin-left: 60px ;
-    margin-right: 60px;
-    }
 
 .list_item {
-    margin-left: 70px;
+    margin: 20px 0px 0px 25px;
 }
 /* image sign button in a column */
 .column_image {
-    width: 250px; 
+    width: 100%;
+    max-width: 250px; 
 }
 .text_bolt {
     font-weight: bold;
@@ -64,17 +62,18 @@ margin: 15px 5px 10px 5px;
 .object_column {
     display: flex;
     flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
 }
  /* objects in a raw */
  .raw {
      display: flex;
      flex-wrap: wrap;
-     justify-content: space-between;
-     margin: 60px;
+     justify-content: center;
  }
 /* bottom button */
 .bottom_button-size {
-    width: 575px;
+    width: 100%;
 }
  /* bottom blue background */
  .bottom_background-blue {
@@ -100,3 +99,26 @@ margin: 15px 5px 10px 5px;
 }
 
 
+@media screen and (max-width: 650px) {
+    .wrapper {
+        padding: 0 30px;
+    }
+}
+
+
+@media screen and (max-width: 580px) {
+    .wrapper {
+        padding: 0px;
+    }
+
+    .info-text {
+        padding: 0 10px;
+    }
+}
+
+
+@media screen and (max-width: 530px) {
+    .object_column {
+        width: 100%;
+    }
+}
